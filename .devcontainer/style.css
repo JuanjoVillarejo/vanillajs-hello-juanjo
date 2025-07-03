@@ -1,0 +1,11 @@
+*{box-sizing: border-box;font-family: arial;color: #000000;}
+
+p{
+	width: 100%;
+	margin: 0 auto;
+	display: block;
+	font-size: 34px;
+	text-align: center;
+	font-weight: bold;
+}
+
