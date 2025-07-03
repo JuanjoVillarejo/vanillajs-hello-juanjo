@@ -24,18 +24,18 @@ console.log(who[whoRandom])
 
 let actionRandom = Math.floor(Math.random() * action.length);
 console.log(actionRandom)
-console.log(action[whoRandom])
+console.log(action[actionRandom])
 
 let whatRandom = Math.floor(Math.random() * what.length);
 console.log(whatRandom)
-console.log(what[whoRandom])
+console.log(what[whatRandom])
 
 let whenRandom = Math.floor(Math.random() * when.length);
 console.log(whenRandom)
-console.log(when[whoRandom])
+console.log(when[whenRandom])
 
 document.querySelector("#excuse").innerHTML = who[whoRandom]
-document.querySelector("#excuse").innerHTML = action[whoRandom]
-document.querySelector("#excuse").innerHTML = what[whoRandom]
-document.querySelector("#excuse").innerHTML = when[whoRandom]
+document.querySelector("#excuse").innerHTML = action[actionRandom]
+document.querySelector("#excuse").innerHTML = what[whatRandom]
+document.querySelector("#excuse").innerHTML = when[whenRandom]
 };
